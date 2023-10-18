@@ -6,12 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kalisa - Personal Portfolio</title>
 
-    <!--
-    - favicon
-  -->
+    <!--- favicon-->
     <link
       rel="shortcut icon"
-      href="./assets/images/logo.ico"
+      href="./assets/images/favicon.ico"
       type="image/x-icon"
     />
 
@@ -25,14 +23,10 @@
   </head>
 
   <body>
-    <!--
-    - #MAIN
-  -->
+    <!--- #MAIN-->
 
     <main>
-      <!--
-      - #SIDEBAR
-    -->
+      <!--- #SIDEBAR -->
 
       <aside class="sidebar" data-sidebar>
         <div class="sidebar-info">
@@ -138,14 +132,10 @@
         </div>
       </aside>
 
-      <!--
-      - #main-content
-    -->
+      <!--- #main-content -->
 
       <div class="main-content">
-        <!--
-        - #NAVBAR
-      -->
+        <!--- #NAVBAR -->
 
         <nav class="navbar">
           <ul class="navbar-list">
@@ -167,9 +157,7 @@
           </ul>
         </nav>
 
-        <!--
-        - #ABOUT
-      -->
+        <!--- ABOUT -->
 
         <article class="about active" data-page="about">
           <header>
@@ -190,12 +178,10 @@
             </p>
           </section>
 
-          <!--
-          - service
-        -->
+          <!--- services -->
 
           <section class="service">
-            <h3 class="h3 service-title">What i'm doing</h3>
+            <h3 class="h3 service-title">Services Offered</h3>
 
             <ul class="service-list">
               <li class="service-item">
@@ -212,7 +198,7 @@
                   <h4 class="h4 service-item-title">Web design</h4>
 
                   <p class="service-item-text">
-                    The most modern and high-quality design made at a
+                    Modern and top-notch website designs crafted at a
                     professional level.
                   </p>
                 </div>
@@ -249,8 +235,8 @@
                   <h4 class="h4 service-item-title">Mobile apps</h4>
 
                   <p class="service-item-text">
-                    Professional development of applications for iOS and
-                    Android.
+                    Mobile app development services for both iOS and Android
+                    platforms.
                   </p>
                 </div>
               </li>
@@ -268,17 +254,15 @@
                   <h4 class="h4 service-item-title">Photography</h4>
 
                   <p class="service-item-text">
-                    I make high-quality photos of any category at a professional
-                    level.
+                    Capture stunning photos with my professional photography
+                    services.
                   </p>
                 </div>
               </li>
             </ul>
           </section>
 
-          <!--
-          - testimonials
-        -->
+          <!--- testimonials -->
 
           <section class="testimonials">
             <h3 class="h3 testimonials-title">Testimonials</h3>
@@ -410,9 +394,7 @@
             </ul>
           </section>
 
-          <!--
-          - testimonials modal
-        -->
+          <!--- testimonials modal -->
 
           <div class="modal-container" data-modal-container>
             <div class="overlay" data-overlay></div>
@@ -454,9 +436,7 @@
             </section>
           </div>
 
-          <!--
-          - clients
-        -->
+          <!--- clients -->
 
           <section class="clients">
             <h3 class="h3 clients-title">Clients</h3>
@@ -519,9 +499,7 @@
           </section>
         </article>
 
-        <!--
-        - #RESUME
-      -->
+        <!--- #RESUME -->
 
         <article class="resume" data-page="resume">
           <header>
@@ -652,9 +630,7 @@
           </section>
         </article>
 
-        <!--
-        - #PORTFOLIO
-      -->
+        <!--- #PORTFOLIO -->
 
         <article class="portfolio" data-page="portfolio">
           <header>
@@ -668,15 +644,15 @@
               </li>
 
               <li class="filter-item">
-                <button data-filter-btn>Web design</button>
+                <button data-filter-btn>Full stack</button>
               </li>
 
               <li class="filter-item">
-                <button data-filter-btn>Applications</button>
+                <button data-filter-btn>Backend Dev</button>
               </li>
 
               <li class="filter-item">
-                <button data-filter-btn>Web development</button>
+                <button data-filter-btn>Frontend Dev</button>
               </li>
             </ul>
 
@@ -697,15 +673,15 @@
                 </li>
 
                 <li class="select-item">
-                  <button data-select-item>Next JS</button>
+                  <button data-select-item>Full stack</button>
                 </li>
 
                 <li class="select-item">
-                  <button data-select-item>React JS</button>
+                  <button data-select-item>Backend Dev</button>
                 </li>
 
                 <li class="select-item">
-                  <button data-select-item>Web development</button>
+                  <button data-select-item>Frontend Dev</button>
                 </li>
               </ul>
             </div>
@@ -714,33 +690,9 @@
               <li
                 class="project-item active"
                 data-filter-item
-                data-category="web development"
+                data-category="full stack"
               >
-                <a href="#">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/project-1.jpg"
-                      alt="finance"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">Finance</h3>
-
-                  <p class="project-category">Web development</p>
-                </a>
-              </li>
-
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="web development"
-              >
-                <a href="#">
+                <a href="https://kh-blog.vercel.app/" target="_blank">
                   <figure class="project-img">
                     <div class="project-item-icon-box">
                       <ion-icon name="eye-outline"></ion-icon>
@@ -753,42 +705,18 @@
                     />
                   </figure>
 
-                  <h3 class="project-title">Orizon</h3>
+                  <h3 class="project-title">KH Blog</h3>
 
-                  <p class="project-category">Web development</p>
+                  <p class="project-category">Full stack</p>
                 </a>
               </li>
 
               <li
                 class="project-item active"
                 data-filter-item
-                data-category="web design"
+                data-category="backend dev"
               >
-                <a href="#">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/project-3.jpg"
-                      alt="fundo"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">Fundo</h3>
-
-                  <p class="project-category">Web design</p>
-                </a>
-              </li>
-
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="applications"
-              >
-                <a href="#">
+                <a href="https://openlanguages-dev.vercel.app/" target="_blank">
                   <figure class="project-img">
                     <div class="project-item-icon-box">
                       <ion-icon name="eye-outline"></ion-icon>
@@ -796,47 +724,23 @@
 
                     <img
                       src="./assets/images/project-4.png"
-                      alt="brawlhalla"
+                      alt="openlanguages-dev"
                       loading="lazy"
                     />
                   </figure>
 
-                  <h3 class="project-title">Brawlhalla</h3>
+                  <h3 class="project-title">Open Languages</h3>
 
-                  <p class="project-category">Applications</p>
+                  <p class="project-category">Backend Dev</p>
                 </a>
               </li>
 
               <li
                 class="project-item active"
                 data-filter-item
-                data-category="web design"
+                data-category="full stack"
               >
-                <a href="#">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/project-5.png"
-                      alt="dsm."
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">DSM.</h3>
-
-                  <p class="project-category">Web design</p>
-                </a>
-              </li>
-
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="web design"
-              >
-                <a href="#">
+                <a href="https://conversa-app.vercel.app/" target="_blank">
                   <figure class="project-img">
                     <div class="project-item-icon-box">
                       <ion-icon name="eye-outline"></ion-icon>
@@ -844,23 +748,47 @@
 
                     <img
                       src="./assets/images/project-6.png"
-                      alt="metaspark"
+                      alt="conversa"
                       loading="lazy"
                     />
                   </figure>
 
-                  <h3 class="project-title">MetaSpark</h3>
+                  <h3 class="project-title">Conversa</h3>
 
-                  <p class="project-category">Web design</p>
+                  <p class="project-category">Full stack</p>
                 </a>
               </li>
 
               <li
                 class="project-item active"
                 data-filter-item
-                data-category="web development"
+                data-category="backend dev"
               >
-                <a href="#">
+                <a href="https://healthconnect-dev.vercel.app/" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-1.jpg"
+                      alt="Health-Connect"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Health Connect</h3>
+
+                  <p class="project-category">Backend Dev</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="full stack"
+              >
+                <a href="https://habitrack-app.vercel.app/" target="_blank">
                   <figure class="project-img">
                     <div class="project-item-icon-box">
                       <ion-icon name="eye-outline"></ion-icon>
@@ -868,47 +796,26 @@
 
                     <img
                       src="./assets/images/project-7.png"
-                      alt="summary"
+                      alt="Habitrack"
                       loading="lazy"
                     />
                   </figure>
 
-                  <h3 class="project-title">Summary</h3>
+                  <h3 class="project-title">Habitrack</h3>
 
-                  <p class="project-category">Web development</p>
+                  <p class="project-category">Full stack</p>
                 </a>
               </li>
 
               <li
                 class="project-item active"
                 data-filter-item
-                data-category="applications"
+                data-category="frontend dev"
               >
-                <a href="#">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/project-8.jpg"
-                      alt="task manager"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">Task Manager</h3>
-
-                  <p class="project-category">Applications</p>
-                </a>
-              </li>
-
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="web development"
-              >
-                <a href="#">
+                <a
+                  href="https://react-dashboard-swics.vercel.app/"
+                  target="_blank"
+                >
                   <figure class="project-img">
                     <div class="project-item-icon-box">
                       <ion-icon name="eye-outline"></ion-icon>
@@ -916,23 +823,44 @@
 
                     <img
                       src="./assets/images/project-9.png"
-                      alt="arrival"
+                      alt="Ecommerce Dashboard"
                       loading="lazy"
                     />
                   </figure>
 
-                  <h3 class="project-title">Arrival</h3>
+                  <h3 class="project-title">Ecommerce Dashboard</h3>
 
-                  <p class="project-category">Web development</p>
+                  <p class="project-category">Frontend Dev</p>
+                </a>
+              </li>
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="frontend dev"
+              >
+                <a href="https://iremecreatives.com" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-5.png"
+                      alt="Ireme Creatives"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Ireme Creatives</h3>
+
+                  <p class="project-category">Frontend Dev</p>
                 </a>
               </li>
             </ul>
           </section>
         </article>
 
-        <!--
-        - #CONTACT
-      -->
+        <!--- #CONTACT -->
 
         <article class="contact" data-page="contact">
           <header>

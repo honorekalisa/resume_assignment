@@ -758,6 +758,7 @@ main {
 
 .clients {
   margin-bottom: 15px;
+  object-fit: contain;
 }
 
 .clients-list {
